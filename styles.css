@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@300&family=Nunito:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: #F3F5FC;
+}
+
+.div-logo {
+    position: relative;
+    left: 40px;
+    top: 40px;
+}
+
+.logo{
+    width: 120px;
+    height: 48px;
+}
+
+.texto {
+    position: relative;
+    left: 240px;
+    top: 168px;
+    width: 577px;
+    height: 48px;
+}
+
+textarea {
+    background-color: #F3F5FC;
+    font-style: normal;
+    font-size: 32px;
+    text-align: left;
+    border: none;
+    overflow: auto;
+    outline: none;
+}
+
+textarea::placeholder{
+    color: #0a3871;
+}
+
+.rectangle{
+    background-color: #ffffff;
+    border-radius: 32px;
+    position: absolute;
+    left: 1200px;
+    top: 40px;
+    bottom: 40px;
+    width: 400px;
+    height: 930px;
+    box-shadow: 24px 24px 32px 32px rgba(0, 0, 0, 0.08);
+}
+
+.muñeco{
+    position: absolute;
+    top: 243px;
+    right: 32px;
+    width: 336px;
+    height: 304px;
+}
+
+.frame5 {
+    position: absolute;
+    top: 619px;
+    right: 72px;
+    bottom: 283px;
+    left: 32px;
+    width: 336px;
+    height: 122px;
+    text-align: center;
+}
+
+
+.respuesta{
+    font-weight: 700;
+    font-style: bold;
+    font-size: 32px;
+    width: 336px;
+    height: 58px;
+}
+
+.texto2 {
+    font-size: 24px;
+    font-weight: 400;
+    position: relative;
+    top: 74px;
+    width: 336px;
+    height: 48px;
+}
+
+.frame3{
+    position: absolute;
+    left: 240px;
+    top: 885px;
+}
+
+.frame1{
+    position: absolute;
+    left: 240px;
+    top: 851px;
+    
+}
+
+.advertencia{
+    content: url('https://api.iconify.design/bi/exclamation-circle-fill.svg');
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    color: #65747d;
+}
+
+.advertencia-texto{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 12px;
+    color: #495057;
+}
+
+button{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    padding: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    
+}
+
+.button1{
+    background-color: #0a3871;
+    color: #ffffff;
+    margin-right: 24px;
+}
+
+.button2{
+    background-color: #d8dfe8;
+    color: #0a3871;
+}
+
+.button3{
+    background-color: #d8dfe8;
+    color: #0a3871;
+    position: relative;
+    top: 190px;
+    display: none;
+}
+
+.mensaje-codificado{
+        font-weight: 700;
+        font-size: 25px;
+        padding-top: 2em;
+        margin: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    @media only screen and (max-width: 912px) and (min-width: 721px)  {
+        
+        .rectangle {
+            position: relative;
+            left: 40px;
+            top: 1001px;
+            width: 668px;
+            height: 133px;
+        }
+
+        .frame5 {
+            position: relative;
+            left: 32px;
+            top: 32px;
+            width: 624px;
+            height: 69px;
+        }
+
+        .frame5 .respuesta p {
+            font-size: 22px;
+            position: absolute;
+            width: 624px;
+            height: 29px;
+
+        }
+
+        .texto2 p{
+            position: absolute;
+            top: -100px;      
+            height: auto;
+            width: 624px;
+
+        }
+        
+        .frame3{
+            left: 40px;
+        }
+
+        .frame1 {
+            left: 40px;
+        }
+
+        .mensaje-codificado {
+            position: absolute;
+            font-size: 22px;
+            width: 624px;
+            height: 29px;
+            top: -235px;
+            left: -265px;
+        }
+
+        .button3 {
+            left: 150px;
+        }
+    }
+
+    @media only screen and (max-width: 721px) {
+    
+        .logo{
+            position: fixed;
+            width: 48.40px;
+            height: 30.43px;
+            top: 24px;
+            left: 16px;
+        }
+        
+        .textarea {
+        position: absolute;
+        width: 343px;
+        height: 624px;
+        top: 152px;
+        left: 16px;
+        }
+
+        .frame1 {
+            width: 229px;
+            height: 18px;
+            top: 840px;
+            left: 16px;
+        }
+    
+        .frame3 {
+            width: 343px;
+            height: 158px;
+            top: 874px;
+            left: 16px;
+        }
+
+        .rectangle {
+            width: 343px;
+            height: 595px;
+            top: 1096px;
+            left: 16px;
+            padding: 32px;
+        }
+        
+        .muñeco {
+            display: none;
+        }
+
+        .frame5 {
+            position: relative;
+            left: 24px;
+            top: 707px;
+            width: 327px;
+            height: 186px;
+        }
+
+        .frame5 .respuesta p {
+            font-size: 24px;
+            position: absolute;
+            width: 263px;
+            height: 58px;
+            top: -450px;
+
+        }
+
+        .texto2 p{
+            position: absolute;
+            top: -450px;      
+            height: 58px;
+            width: 252px;
+
+        }
+    }
